@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .dropdown ul{
+        padding-bottom: 10px;
+       
+      }
+      .applelogo{
+        padding-bottom: 10px;
+       
+
+      }
+      .icon{
+        padding-bottom: 10px;
+
+      }
+    </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+
+  <header>
+    <nav>
+   
+      <div class = "navbar">
+      <div class="applelogo" style="padding-top: 0px;">
+   
+       <a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+           <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+           <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+         </svg></a>
+       </div>
+   <div class="dropdown" id="menu-list">
+   <ul style="padding-top: 5px;">
+       <li><a href="store.html">store</a></li>
+       <li>Mac</li>
+       <li>iPad</li>
+       <li>iPhone</li>
+       <li>Watch</li>
+       <li>AirPods</li>
+       <li>Tv & Home</li>
+       <li>Entertainment</li>
+       <li>Acessories</li>
+       <li>Support</li>
+   </ul>
+</div> 
+
+       <div class="icon"  style="padding-top: 5px;" >
+       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+           <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+         </svg>
+
+       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+           <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+         </svg>
+         <svg id="menu" width="30" height="30" viewBox="0 0 18 18"><polyline id="globalnav-menutrigger-bread-bottom" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 12, 16 12" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom"><animate id="globalnav-anim-menutrigger-bread-bottom-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 12, 16 12; 2 9, 16 9; 3.5 15, 15 3.5"></animate><animate id="globalnav-anim-menutrigger-bread-bottom-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 15, 15 3.5; 2 9, 16 9; 2 12, 16 12"></animate></polyline><polyline id="globalnav-menutrigger-bread-top" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 5, 16 5" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top"><animate id="globalnav-anim-menutrigger-bread-top-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 5, 16 5; 2 9, 16 9; 3.5 3.5, 15 15"></animate><animate id="globalnav-anim-menutrigger-bread-top-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 3.5, 15 15; 2 9, 16 9; 2 5, 16 5"></animate></polyline></svg></div></div>
+   
+       </div>
+      
+       </div>
+  
+  </nav>
+</header>
+<body class="body" style="background-color: rgba(251, 251, 253, .8);">
+
+   <main>
+    
+    <div class="nxt"  style="background-color: white;" >
+       
+        <p>Get up to ₹8000.00 instant savings on selected products with eligible HDFC Bank cards.*</p><a href = "#"> Shop now</a>
+            
+        </div>
+
+    <div class="store" >
+        <div class="titles">
+        <h1><span>Store.</span> The best way to buy the <br>products you love.</h1>
+        </div>
+        <div class="line">
+        <div class="refer1">
+          <div class="image">
+          <img src="new/store-chat-specialist-icon-202305_AV1.jpeg"><br>
+        </div>
+        <div><p>Need shopping help?<br>
+          <a href=#>Ask a Specialist</a>
+        <p>
+          
+          </div>
+        </div>
+        <div class="refer1">
+          <div class="image">
+          <img src="new/store-chat-specialist-icon-202305_AV1.jpeg">
+        </div>
+        <div>
+          <p>Visit an Apple Store<br>
+            <a href=#>Find one near you</a><p>
+        
+        </div>
+        </div>
+      </div>
+
+    </div>
+        
+        
+    
+    
+
+    
+    <div class="products" id="products">
+     
+
+    <div class="item">
+    <img src = "cards/store-card-14-16-mac-nav-202301.png">
+    <h5>Mac</h5>
+
+    </div>
+    <div class="item">
+        <img src = "cards/store-card-13-iphone-nav-202309_GEO_EMEA.png">
+        <h5>iPhone</h5>
+    
+    </div>
+    <div class="item">
+        <img src = "cards/store-card-13-ipad-nav-202210.png">
+        <h5>iPad</h5>
+    
+    </div>
+
+    <div class="item">
+        <img src = "cards/store-card-13-watch-nav-202309_GEO_IN.png">
+        <h5>Apple Watch</h5>
+    
+    </div>
+    <div class="item">
+        <img src = "cards/store-card-13-airpods-nav-202209.png">
+        <h5>AirPods</h5>
+    
+    </div>
+    <div class="item">
+        <img src = "cards/store-card-13-airtags-nav-202108.png">
+        <h5>AirTag</h5>
+    
+    </div>
+    <div class="item">
+        <img src = "cards/store-card-13-appletv-nav-202210 (1).png">
+        <h5>Apple TV 4K</h5>
+    
+    </div>
+    <div class="item">
+        <img src = "cards/store-card-13-airtags-nav-202108.png">
+        <h5>HomePod</h5>
+    
+    </div>
+
+    <div class="item">
+      <img src = "cards/store-card-13-ipad-nav-202210.png">
+      <h5>Mac</h5>
+      </div>
+
+      <div class="item">
+        <img src = "cards/store-card-14-16-mac-nav-202301.png">
+        <h5>Mac</h5>
+  
+  </div>
+    <div class="slider" >
+    <svg id="slide" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+    </svg>
+  </div>
+
+    </div>
+     
+   
+               
+
+   </main>
+   <script>
+    const product = document.getElementById("products");
+    const slide = document.getElementById("slide");
+    product.addEventListener("mouseover", () => {
+        slide.style.display = "block";
+    });
+    product.addEventListener("mouseout", () => {
+        slide.style.display = "none"; 
+    });
+</script>
+
+   <script>
+    const button = document.getElementById("slide");
+
+    button.onclick = () => {
+    document.getElementById("products").scrollLeft += 20;
+ };
+</script>
+
+
+<section4>
+    <h3>The latest. Take a look at what’s new right now.</h3>
+    <div class="cards-cont" id="cards-slide">
+    <div class="card" id="card">
+        <img src="storecards/store-card-40-iphone-15-pro-202309.jpeg" class="card-img" alt="...">
+        <div class="card-img-overlay" style="color: white;">
+          <h5 class="card-title">IPHONE 15 PRO</h5>
+          <h3>Titanium</h3>
+          <p class="card-text"><small>From ₹134900.00‡</small></p>
+        </div>
+      </div>
+      <div class="card " id="card">
+        <img src="storecards/store-card-40-iphone-15-202309.jpeg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">IPHONE 15</h5>
+          <h3>Newphoria</h3>
+          <p class="card-text"><small>From ₹79900.00‡</small></p>
+        </div>
+      </div>
+      <div class="card " id="card">
+        <img src="storecards/store-card-40-applemusic-202301.jpeg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card " id="card">
+        <img src="storecards/store-card-40-applemusic-202301.jpeg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        </div>
+        </div>
+        <div class="card-slider" >
+          <svg id="card-slide" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg>
+        </div>
+       
+    </div>
+    <script>
+    const cardsSlide = document.getElementById("cards-slide");
+    const cardslide = document.getElementById("card-slide");
+    cardsSlide .addEventListener("mouseover", () => {
+        cardslide.style.display = "block";
+    });
+    cardsSlide .addEventListener("mouseout", () => {
+        cardslide.style.display = "none"; 
+    });
+    </script>
+
+    <script>
+      const cbutton = document.getElementById("card-slide");
+  
+      cbutton.onclick = () => {
+      document.getElementById("cards-slide").scrollLeft += 20;
+   };
+  </script>
+   
+</section4>
+
+
+
+
+
+</body>
+</html>
